@@ -1,0 +1,50 @@
+newmtl PartMaterial(Clone)
+Kd 1 1 1
+map_Kd texture.Wasp_export.png
+illum 2
+
+newmtl PartTransparent(Clone)
+Kd 1 1 1
+Tr 0.9
+d 0.1
+map_Kd texture.Wasp_export.png
+illum 2
+
+newmtl PartTransparentZWrite(Clone)
+Kd 1 1 1
+Tr 0.9
+d 0.1
+map_Kd texture.Wasp_export.png
+illum 2
+
+newmtl Jefferies Atlas Material Instance
+Ks 0 0 0
+map_Kd null
+illum 2
+
+newmtl LiberationSans SDF Material (Instance)
+Ks 0 0 0
+map_Kd null
+illum 2
+
+newmtl Part Material BDM
+map_Kd texture.Wasp_export.png
+illum 2
+
+newmtl Roboto-Regular Atlas Material Instance
+Ks 0 0 0
+map_Kd null
+illum 2
+
+newmtl LiberationSans SDF Material Instance
+Ks 0 0 0
+map_Kd null
+illum 2
+
+newmtl PartMaterial(Clone)(Clone) (Instance)
+map_Kd null
+illum 2
+
+newmtl AttitudeBall (Instance)
+illum 2
+

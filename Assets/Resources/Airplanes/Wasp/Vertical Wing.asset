@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a895ec28d396f71409050f1b36d51e34, type: 3}
+  m_Name: Vertical Wing
+  m_EditorClassIdentifier: 
+  span: 2
+  chord: 2
+  flapPercent: 0.1
+  liftSlope: 6.5
+  zeroLiftAngle: 0
+  aoaStallNB: -15
+  aoaStallPB: 15
+  skinFrictionCoiffient: 0.02
+  aspectRatio: 1.5
+  autoAR: 0
